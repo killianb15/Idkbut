@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "IDKbut",
+  "version": "1.0",
+  "description": "Une extension quand tu t'ennuies.",
+  "icons": {
+      "48": "icon.png"
+  },
+  "action": {
+      "default_popup": "popup.html"
+  },
+  "permissions": [
+      "activeTab"
+  ]
+}

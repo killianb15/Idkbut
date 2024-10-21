@@ -1,0 +1,60 @@
+body {
+    width: 175px; /* Largeur de la fenêtre pop-up */
+    height: 300px;
+    background-image: url('ciel_idkbut.png');
+    background-size: cover; /* Taille spécifique de l'image de fond */
+  }
+  #container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #linesContainer {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .line {
+    background-color: black; /* Couleur de la ligne */
+    position: absolute; /* Position absolue pour contrôler le positionnement */
+}
+
+  
+  #blackBall {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+  }
+  /* Style pour la popup */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  z-index: 999;
+}
+
+.popup-content {
+  color: white;
+}
+
+.popup button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
